@@ -14,7 +14,7 @@ How to create a custom POPUP form with PHP &amp; Ajax
 
 <h1>Initialization</h1>
 
-```
+```javascript
 $(document).ready(function(e) {
 	$("#popup").lightWeightPopup({href:"contact-us.html", overlay:true, width:"90%", maxWidth:"600px", title:"Ajax Model"});
 	$("#inline").lightWeightPopup({title:"Inline Model"});
