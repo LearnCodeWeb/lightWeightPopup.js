@@ -12,6 +12,18 @@ How to create a custom POPUP form with PHP &amp; Ajax
 <script src="lightWeightPopup.js"></script>
 ```
 
+<h1>HTML</h1>
+
+```
+<button type="button" id="popup" class="btn btn-primary mb-3" data-overlay="true" data-href="contact-us.html" data-content="ajax"><i class="fa fa-fw fa-file-alt"></i> CLICK HERE AJAX</button>
+
+<a href="javascript:;" id="ancher" data-href="contact-us.html" class="btn btn-primary mb-3" data-content="ajax"><i class="fa fa-fw fa-file-alt"></i> Ancher Tag AJAX</a>
+
+<button type="button" id="iframe" data-href="https://www.youtube.com/embed/ZwKhufmMxko" class="btn btn-warning mb-3" data-content="iframe"><i class="fa fa-fw fa-file-alt"></i> Button Tag Iframe</button>
+
+<a href="javascript:;" data-href="https://learncodeweb.com/web-development/how-to-create-a-custom-popup-form-with-php-and-ajax/" class="btn btn-dark mb-3 iframe" data-content="iframe"><i class="fa fa-fw fa-file-alt"></i> Ancher Tag Iframe</a>
+```
+
 <h1>Initialization</h1>
 
 ```javascript
