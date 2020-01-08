@@ -14,15 +14,15 @@ How to create a custom POPUP form with PHP &amp; Ajax
 
 <h1>Initialization</h1>
 
+```
 $(document).ready(function(e) {
-		$('#popup').lightWeightPopup({href:'contact-us.html', overlay:true, width:'90%', maxWidth:'600px', title:'Ajax Model'});
-		$('#inline').lightWeightPopup({title:'Inline Model'});
-		$('#ancher').lightWeightPopup({width:'95%', maxWidth:'320px', title:'Ajax Model'});
-		$('#iframe').lightWeightPopup({href:'https://www.youtube.com/embed/N59KnLf2pbY', maxWidth:'600px', height:'400px', title:'Iframe Model'});
-		$('.iframe').lightWeightPopup({width:'100%', height:'100%', title:'Iframe Model'});
+	$("#popup").lightWeightPopup({href:"contact-us.html", overlay:true, width:"90%", maxWidth:"600px", title:"Ajax Model"});
+	$("#inline").lightWeightPopup({title:"Inline Model"});
+	$("#ancher").lightWeightPopup({width:"95%", maxWidth:"320px", title:"Ajax Model"});
+	$("#iframe").lightWeightPopup({href:"https://www.youtube.com/embed/N59KnLf2pbY", maxWidth:"600px", height:"400px", title:"Iframe Model"});
+	$(".iframe").lightWeightPopup({width:"100%", height:"100%", title:"Iframe Model"});
 });
-
-
+```
 
 <h1>Complete Detail</h1>
 
