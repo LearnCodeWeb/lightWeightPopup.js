@@ -1,0 +1,31 @@
+{
+    "name": "jquery-lightweightpopup",
+    "description": "jQuery Light Weight Popup & modal window plugin.",
+    "version": "1.0",
+    "keywords": [
+        "modal",
+        "lightbox",
+        "lightWeightPopup",
+        "popup",
+        "ui",
+        "jquery-plugin",
+        "LearnCodeWeb.com"
+    ],
+    "author": {
+        "name": "Khalid Zaid Bin [Mian Zaid]",
+        "url": "https://www.learncodeweb.com",
+        "email": "contact@learncodeweb.com"
+    },
+    "main": "lightWeightPopup.js",
+    "license": "MIT",
+    "homepage": "https://learncodeweb.com/web-development/how-to-create-a-custom-popup-form-with-php-and-ajax/",
+    "demo": "https://learncodeweb.com/demo/web-development/how-to-create-a-custom-popup-form-with-php-and-ajax/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LearnCodeWeb/lightWeightPopup.js.git"
+    },
+    "dependencies": {
+        "jquery": ">=1.7.1",
+        "with-bootstrap-3": ">=1.9.1"
+    }
+}
